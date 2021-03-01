@@ -14,7 +14,7 @@ var mailList = ['dr.no@gmail.com', 'mario.rossi@hotmail.com', 'gorthan9606@gmail
 // controllo la corrispondenza con la lista
 
 for (var i = 0; i < mailList.length; i++) {
-  if (userMail = mailList[i]) {
+  if (userMail === mailList[i]) {
     console.log('La tua mail è sulla lista!');
   } else {
     console.log('La tua mail non è sulla lista!');
