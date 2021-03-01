@@ -13,6 +13,7 @@ var mailList = ['dr.no@gmail.com', 'mario.rossi@hotmail.com', 'gorthan9606@gmail
 
 // controllo la corrispondenza con la lista
 var mailValida;
+
 for (var i = 0; i < mailList.length; i++) {
   if (userMail == mailList[i]) {
     mailValida = userMail;
@@ -22,7 +23,6 @@ for (var i = 0; i < mailList.length; i++) {
 
 if (mailValida == userMail) {
   console.log('Accesso consentito!');
-}
-if (mailValida != mailList[i]) {
+} else {
   console.log('Accesso negato!');
 }
