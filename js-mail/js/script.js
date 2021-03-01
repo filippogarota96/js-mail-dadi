@@ -9,7 +9,7 @@ var userMail = prompt('Scrivi qui la tua mail!');
 
 // creo una lista di mail a cui deve corrispondere la mail utente
 
-var mailList = ['dr.no@gmail.com', 'mario.rossi@hotmail.com', 'gorthan9606@gmail.com', 'sandro61@libero.it' ];
+var mailList = ['alessandro.bianchi@gmail.com', 'mario.rossi@hotmail.com', 'garotafilippo40@gmail.com', 'sandro61@libero.it' ];
 
 // controllo la corrispondenza con la lista
 var mailValida;

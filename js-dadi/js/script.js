@@ -6,6 +6,9 @@
 var player = Math.floor(Math.random() * 7);
 var computer = Math.floor(Math.random()*7);
 
+console.log('Player: ' + player);
+console.log('Computer: ' + computer);
+
 if (player > computer) {
   console.log('Player wins!');
 } else if (player < computer) {
